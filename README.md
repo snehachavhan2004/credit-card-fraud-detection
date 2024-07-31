@@ -1,1 +1,2 @@
 # credit-card-fraud-detection
+  In this notebook, I'll try to predict fraud transactions from a dataset. Because there are many more normal transactions than fraud ones, just using accuracy isn't helpful. Instead, I'll focus on sensitivity (how well the model finds fraud cases) and specificity (how well it finds normal transactions). Since these two metrics are connected, I’ll aim for a balance, but for fraud detection, I’ll prioritize high sensitivity to make sure we catch as many fraud cases as possible.
